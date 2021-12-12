@@ -1,0 +1,113 @@
+/* Colors and fonts */
+
+
+body{
+	background: rgba(250,247,80,255) ;
+	color: black ;
+	font-family: Courier New;
+	font-size: 16px;
+}
+
+h1, h2 {
+	font-family: Barlow Medium;
+}
+
+h1{
+	color: black;
+	font-size: 48px
+}
+
+h2{
+	color: rgb(84,147,251);
+	font-size: 24px
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;	
+}
+a:hover{
+	color: black;
+}
+
+
+
+/* Custom design with class */
+
+.container {
+	width : 700px;
+	margin : 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px ;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px ;
+	}
+}
+
+
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px, 10px, 30px, rgba(0,0,0,.3);
+	border-radius: 3px;
+	margin: 40px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	width: 140px ; 
+	border-radius: 50% ;
+}
+
+.btn-blue{
+	background: rgb(228,99,92);
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+.btn-blue:hover {
+	background: black;
+	color: rgb(228,99,92);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: black;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(100,212,212);
+}
+
+
+/* Design adjustment with id */
+
+#Introduction p{
+	margin-bottom: 20px;
+}
+
+
+
+
+
